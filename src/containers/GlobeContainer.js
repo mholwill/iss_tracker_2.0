@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import GlobeRender from '../components/GlobeRender';
 
+import '../css/main.css'
+
 export default class GlobeContainer extends Component {
     constructor(props){
         super(props);
