@@ -19,10 +19,10 @@ const GlobeRender = (props) => {
     return(
         <div>
             <ReactGlobe
-                height="100vh"
+                height="70vh"
                 markers={markers}
                 // options={options}
-                width="100vw"
+                width="70vw"
                 // onClickMarker={onClickMarker}
                 // onDefocus={onDefocus}
             />
