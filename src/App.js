@@ -1,14 +1,13 @@
 import React from 'react';
-import GlobeContainer from './containers/GlobeContainer'
+import GlobeContainer from './containers/GlobeContainer';
+// import ReactGlobe from 'react-globe';
 
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <section>
-        <GlobeContainer />
-      </section>
+    <div>
+      <GlobeContainer></GlobeContainer>
     </div>
   );
 }
